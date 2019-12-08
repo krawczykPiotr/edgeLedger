@@ -207,7 +207,7 @@ line-height: 1.3;
 }
 .contact_form {
   flex: 1;
-  background-color: limegreen;
+  background-color: #93cb52;
   padding: 2rem 1.25rem;
   color: #fff;
 }
@@ -235,19 +235,28 @@ line-height: 1.3;
   margin: 0rem auto;
 }
 
-
-.contact_form button {
-  display: block;
+#submit_btn {
   background-color: #333;
   color: #fff;
   border: none;
-  width: 100%;
-  padding: 0.35rem 0;
-  margin: 0.75rem 0rem;
   border-radius: 5px;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 .map {
-  flex: 3;
+  flex: 1;
   background-color: red;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  padding: 1rem;
 }

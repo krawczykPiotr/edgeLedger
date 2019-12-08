@@ -1,0 +1,15 @@
+/* What we do */
+.wwd_boxarea {
+  flex-direction: column;
+}
+.wwd_box {
+  display: flex;
+  text-align: left;
+  border-bottom: 1px #333 dotted;
+}
+
+.wwd_box i {
+  align-self: center;
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
